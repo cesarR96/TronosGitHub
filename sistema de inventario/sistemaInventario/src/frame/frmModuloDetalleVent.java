@@ -222,7 +222,7 @@ public class frmModuloDetalleVent extends javax.swing.JFrame {
         jLabel12.setBackground(new java.awt.Color(255, 102, 0));
         jLabel12.setFont(new java.awt.Font("Ebrima", 1, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(51, 153, 255));
-        jLabel12.setText("DETALLE DE COMPRA");
+        jLabel12.setText("DETALLE DE VENTA");
         panelCarritoCompra.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 200, 30));
 
         btnAgregarCompra.setBackground(new java.awt.Color(0, 255, 0));

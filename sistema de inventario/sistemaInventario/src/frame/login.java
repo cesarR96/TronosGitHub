@@ -84,7 +84,7 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(txtUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 240, 190, 20));
 
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, 220, 10));
+        jPanel1.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 260, 200, 10));
 
         jLabel1.setBackground(new java.awt.Color(255, 102, 0));
         jLabel1.setFont(new java.awt.Font("Ebrima", 0, 14)); // NOI18N
@@ -96,7 +96,7 @@ public class login extends javax.swing.JFrame {
         jPanel1.add(txtContraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 310, 190, 20));
 
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, 220, 10));
+        jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 330, 200, 10));
 
         btnIngresar.setBackground(new java.awt.Color(51, 153, 255));
         btnIngresar.setForeground(new java.awt.Color(51, 153, 255));
@@ -110,11 +110,11 @@ public class login extends javax.swing.JFrame {
         });
         jPanel1.add(btnIngresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 360, 90, 40));
 
-        icono1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/avatar.png"))); // NOI18N
-        jPanel1.add(icono1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 40, 30));
+        icono1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/user162.png"))); // NOI18N
+        jPanel1.add(icono1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 40, 30));
 
-        icono2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/bloquear.png"))); // NOI18N
-        jPanel1.add(icono2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, 30));
+        icono2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/pass32.png"))); // NOI18N
+        jPanel1.add(icono2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 300, 40, -1));
 
         jLabel4.setBackground(new java.awt.Color(255, 102, 0));
         jLabel4.setFont(new java.awt.Font("Ebrima", 0, 14)); // NOI18N

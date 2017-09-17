@@ -57,7 +57,7 @@ public class inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        buttonGroup1 = new javax.swing.ButtonGroup();
+        inicioGroupBoton = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
@@ -66,11 +66,9 @@ public class inicio extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         btnComprar = new javax.swing.JButton();
         btnVender = new javax.swing.JButton();
-        btnStock = new javax.swing.JButton();
         btnEditarPerfil = new javax.swing.JButton();
         icoConfi8 = new javax.swing.JLabel();
         icoConfi7 = new javax.swing.JLabel();
-        icoConfi4 = new javax.swing.JLabel();
         icoConfi1 = new javax.swing.JLabel();
         icoConfi3 = new javax.swing.JLabel();
         icoConfi6 = new javax.swing.JLabel();
@@ -78,6 +76,8 @@ public class inicio extends javax.swing.JFrame {
         btnModulos = new javax.swing.JButton();
         icoConfi5 = new javax.swing.JLabel();
         btnReporte = new javax.swing.JButton();
+        icoConfi9 = new javax.swing.JLabel();
+        btnStock = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
@@ -186,21 +186,6 @@ public class inicio extends javax.swing.JFrame {
         });
         jPanel3.add(btnVender, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, 100, 80));
 
-        btnStock.setBackground(new java.awt.Color(255, 102, 0));
-        btnStock.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
-        btnStock.setForeground(new java.awt.Color(51, 153, 255));
-        btnStock.setText("Stock");
-        btnStock.setBorder(null);
-        btnStock.setContentAreaFilled(false);
-        btnStock.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnStock.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        btnStock.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnStockActionPerformed(evt);
-            }
-        });
-        jPanel3.add(btnStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 10, 100, 80));
-
         btnEditarPerfil.setBackground(new java.awt.Color(255, 102, 0));
         btnEditarPerfil.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
         btnEditarPerfil.setForeground(new java.awt.Color(51, 153, 255));
@@ -223,17 +208,14 @@ public class inicio extends javax.swing.JFrame {
         icoConfi7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/vender50.png"))); // NOI18N
         jPanel3.add(icoConfi7, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 20, 50, 50));
 
-        icoConfi4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/stock50.png"))); // NOI18N
-        jPanel3.add(icoConfi4, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 20, 50, 50));
-
         icoConfi1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/reporte50.png"))); // NOI18N
-        jPanel3.add(icoConfi1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, 50, 50));
+        jPanel3.add(icoConfi1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 20, 50, 50));
 
         icoConfi3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ajuste50.png"))); // NOI18N
         jPanel3.add(icoConfi3, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 20, -1, 50));
 
-        icoConfi6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/BACKUP64.png"))); // NOI18N
-        jPanel3.add(icoConfi6, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 20, 80, 50));
+        icoConfi6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/seg.png"))); // NOI18N
+        jPanel3.add(icoConfi6, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 20, 80, 50));
 
         btnBackup.setBackground(new java.awt.Color(255, 102, 0));
         btnBackup.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
@@ -265,8 +247,8 @@ public class inicio extends javax.swing.JFrame {
         });
         jPanel3.add(btnModulos, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 10, 100, 80));
 
-        icoConfi5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/material-de-oficina.png"))); // NOI18N
-        jPanel3.add(icoConfi5, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 10, 80, 60));
+        icoConfi5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/impresora.png"))); // NOI18N
+        jPanel3.add(icoConfi5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 10, 80, 60));
 
         btnReporte.setBackground(new java.awt.Color(255, 102, 0));
         btnReporte.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
@@ -282,6 +264,24 @@ public class inicio extends javax.swing.JFrame {
             }
         });
         jPanel3.add(btnReporte, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 10, 90, 80));
+
+        icoConfi9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/reporte50.png"))); // NOI18N
+        jPanel3.add(icoConfi9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, 50, 50));
+
+        btnStock.setBackground(new java.awt.Color(255, 102, 0));
+        btnStock.setFont(new java.awt.Font("Tw Cen MT", 1, 18)); // NOI18N
+        btnStock.setForeground(new java.awt.Color(51, 153, 255));
+        btnStock.setText("Pestañas");
+        btnStock.setBorder(null);
+        btnStock.setContentAreaFilled(false);
+        btnStock.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnStock.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        btnStock.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnStockActionPerformed(evt);
+            }
+        });
+        jPanel3.add(btnStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 10, 80, 80));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1060, 90));
 
@@ -372,10 +372,12 @@ public class inicio extends javax.swing.JFrame {
         jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 30, 20));
 
         RdId.setBackground(new java.awt.Color(255, 255, 255));
+        inicioGroupBoton.add(RdId);
         RdId.setText("ID");
         jPanel1.add(RdId, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, -1, -1));
 
         RdProducto.setBackground(new java.awt.Color(255, 255, 255));
+        inicioGroupBoton.add(RdProducto);
         RdProducto.setSelected(true);
         RdProducto.setText("Producto");
         jPanel1.add(RdProducto, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, -1, -1));
@@ -451,7 +453,7 @@ public class inicio extends javax.swing.JFrame {
     private void btnStockActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStockActionPerformed
         // TODO add your handling code here:
         
-                frmInventario verformulario2 =new frmInventario(); 
+                frmModuloPestañas verformulario2 =new frmModuloPestañas(); 
          //línea 2-hacemos visible el formulario que queremos llamar 
          verformulario2.setVisible(true); 
         //  this.setVisible(false);//oculta el jFrame que estes usando
@@ -566,15 +568,15 @@ public class inicio extends javax.swing.JFrame {
     private javax.swing.JButton btnReporte;
     private javax.swing.JButton btnStock;
     private javax.swing.JButton btnVender;
-    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel icoConfi1;
     private javax.swing.JLabel icoConfi2;
     private javax.swing.JLabel icoConfi3;
-    private javax.swing.JLabel icoConfi4;
     private javax.swing.JLabel icoConfi5;
     private javax.swing.JLabel icoConfi6;
     private javax.swing.JLabel icoConfi7;
     private javax.swing.JLabel icoConfi8;
+    private javax.swing.JLabel icoConfi9;
+    public static javax.swing.ButtonGroup inicioGroupBoton;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel10;
